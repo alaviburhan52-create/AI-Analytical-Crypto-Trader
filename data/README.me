@@ -1,0 +1,19 @@
+# Crypto Tracker
+
+A console-based cryptocurrency price tracker with technical analysis indicators (SMA and RSI) that generates buy/sell signals.
+
+## Features
+
+- Generates realistic price data using random walk simulation
+- Calculates Simple Moving Average (SMA)
+- Calculates Relative Strength Index (RSI)
+- Generates BUY/SELL/HOLD signals
+- Saves price history to CSV format
+
+## Build & Run
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+./CryptoTracker
